@@ -11,4 +11,7 @@
 
 
 ### Table of Contents
-
+-  Land Use and Land Cover databases in the EU
+-  Research goals: SIOSE benchmark using PostgreSQL as a document store
+-  Conducting the computational experiment
+-  Benchmark results: is there a reason for LU/LC document stores?
