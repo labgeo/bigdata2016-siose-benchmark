@@ -6,6 +6,7 @@
 <small>Alfredo Ramón    {<i class="fa fa-envelope"></i>  alfredo.ramon@ua.es}</small>  
 <small>Nuria Valcárcel    {<i class="fa fa-envelope"></i>  nvalcarcel@fomento.es}</small>  
 ![iig](http://labgeo.github.io/bigdata2016-siose-benchmark/img/iig-33.jpg)
+![ign](http://labgeo.github.io/bigdata2016-siose-benchmark/img/ign.jpg)
 <small>Wessex Institute International Conference on Big Data, Alicante, 3-5 May 2016</small>
 
 
