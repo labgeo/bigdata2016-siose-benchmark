@@ -10,8 +10,13 @@
 
 
 
-### Table of Contents
--  Land Use and Land Cover databases in the EU
--  Research goals: SIOSE benchmark using PostgreSQL as a document store
--  Conducting the computational experiment
--  Benchmark results: is there a reason for LU/LC document stores?
+### Contents
+-  Land Use and Land Cover EU joint initiatives
+-  Benchmarking the Spanish Land Use Database (SIOSE): relational vs document store
+-  Conducting a reproducible computational experiment: a DevOps approach
+-  Benchmark results
+-  Potential of land use document stores
+
+Note:
+We are in our way to assemble a research group who is interested in applying innovative database technology to land use and land cover geographical databases in order to empower their usability by researchers coming from different backgrounds. In this preliminary research on land use and land cover document stores we attempted to scope the European Union joint efforts in building a common framework for land use information systems and focused on SIOSE, the Spanish Land Use Database, as one product of this endeavour. As a starting point, we decided to benchmark SIOSE using a document-oriented implementation against the reference implementation, whose physical model is relational. The computational experiment was devised with reproducibility in mind so that SIOSE administrators could replicate and extend tests using container-based virtualization. Early  benchmark results were obtained using PostgreSQL for both, relational and document-oriented implementations. From these results we concluded that land use document stores show some strengths which can boost massive geographical data visualisation and analysis.
+
