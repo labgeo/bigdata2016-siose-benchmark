@@ -8,6 +8,8 @@
 ![ign](http://labgeo.github.io/bigdata2016-siose-benchmark/img/iig-ign.jpg)
 <small>Wessex Institute International Conference on Big Data, Alicante, 3-5 May 2016</small>
 
+Note:
+My name is J.T. Navarro and I presently work as a research fellow for the University of Alicante Geomatics Lab at the Geography Institute. I am here to present a recent computational experiment on land use and land cover geographical databases. For this particular experiment we designed and run a benchmark of an implementation of SIOSE, which is the the acronym of the Spanish Land Use Database, using the PostgreSQL binary JSON data type.
 
 
 ### Contents
@@ -25,3 +27,5 @@ We are in our way to assemble a research group with interests in applying innova
 ### Land Use and Land Cover (LU/LC)
 ![lulc](http://labgeo.github.io/bigdata2016-siose-benchmark/img/lulc.png)
 
+Note:
+When we define the land cover on a particular area we are classifying landscape according to some structural and biophysical properties of elements seen on surface such as spatial patterns, vegetation or buildings. In contrast, land use relates to manpower pressure on landscape, resource explotation and social or economic function. For instance, here we can see a somewhat uniform area for which land cover may be defined as a farming mosaic landscape of citrus crops and pasture. On the other hand, as far as land use is concerned, there is evidence of irrigated lands.
