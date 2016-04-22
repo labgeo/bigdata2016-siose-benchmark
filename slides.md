@@ -9,7 +9,8 @@
 <small>Wessex Institute International Conference on Big Data, Alicante, 3-5 May 2016</small>
 
 Note:
-My name is J.T. Navarro and I presently work as a research fellow for the University of Alicante Geomatics Lab at the Geography Institute. I am here to present a recent computational experiment on land use and land cover geographical databases. For this particular experiment we designed and run a benchmark of an implementation of SIOSE, which is the the acronym of the Spanish Land Use Database, using the PostgreSQL binary JSON data type.
+My name is J.T. Navarro and I presently work as a research fellow for the University of Alicante Geomatics Lab at the Geography Institute. I am here to present a recent computational experiment on land use and land cover geographical databases. For this particular experiment we designed and run a benchmark of an implementation of SIOSE, which is the acronym of the Spanish Land Use Database, using the Postgre Sequel binary Jayson data type.
+
 
 
 ### Contents
@@ -20,7 +21,7 @@ My name is J.T. Navarro and I presently work as a research fellow for the Univer
 -  Potential of land use document stores
 
 Note:
-We are in our way to assemble a research group with interests in applying innovative database technology to land use and land cover geographical databases. In practice, we seek to empower the usability of these databases so that professionals coming from different backgrounds are able to fully exploit them, no matter their level of GIS expertise. In this preliminary research on land use and land cover document stores, we attempted to scope the European Union joint efforts in building a common framework for land use information systems, and focused on SIOSE as one product of this endeavour. As a starting point, we decided to benchmark SIOSE using a document-oriented implementation against the reference implementation, whose physical model is relational. The computational experiment was devised with reproducibility in mind so that SIOSE administrators could replicate and extend tests using container-based virtualisation. Early benchmark results were obtained using PostgreSQL for both, relational and document-oriented implementations. From these results we concluded that document stores show some strengths which can boost massive land use data visualisation and analysis.
+We are in our way to assemble a research group with interests in applying innovative database technology to land use and land cover geographical databases. In practice, we seek to empower the usability of these databases so that professionals coming from different backgrounds are able to fully exploit them, no matter their level of GIS expertise. In this preliminary research on land use and land cover document stores, we attempted to scope the European Union joint efforts in building a common framework for land use information systems, and focused on SIOSE as one product of this endeavour. As a starting point, we decided to benchmark SIOSE using a document-oriented implementation against the reference implementation, whose physical model is relational. The computational experiment was devised with reproducibility in mind so that SIOSE administrators could replicate and extend tests using container-based virtualisation. Early benchmark results were obtained using Postgre Sequel for both, relational and document-oriented implementations. From these results we concluded that document stores show some strengths which can boost massive land use data visualisation and analysis.
 
 
 
