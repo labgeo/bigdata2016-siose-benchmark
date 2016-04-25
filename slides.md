@@ -30,3 +30,8 @@ We are in our way to assemble a research group with interests in applying innova
 
 Note:
 When we define the land-cover on a particular area we depict landscape according to some structural and biophysical properties of elements seen on surface such as spatial distribution, vegetation or buildings. In contrast, land-use relates to manpower pressure on landscape, resource explotation and social or economic function. For instance, here we can see a somewhat uniform area for which land-cover may be defined as a farming mosaic landscape of citrus crops and pasture. On the other hand, as far as land-use is concerned, there is evidence of irrigated lands.
+
+
+
+### EU Land Monitoring activity
+![eu-land-monitoring](http://labgeo.github.io/bigdata2016-siose-benchmark/img/eu-land-monitoring.png)
