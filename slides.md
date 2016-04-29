@@ -58,7 +58,7 @@ SIOSE is downloadable as a set of relational database files, namely GIS shapefil
 
 
 ### Research goals
--  Run two equivalent sets of massive bounding box queries on twin Postgre Sequel instances
+-  Run two equivalent sets of massive bounding box queries on twin PostgreSQL instances
   -  Reference instance: SIOSE relational model
   -  Benchmark instance: SIOSE document store based on binary JSON (JSONB)
 -  Get response time and throughput
