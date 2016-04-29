@@ -64,3 +64,6 @@ SIOSE is downloadable as a set of relational database files, namely GIS shapefil
 -  Get response time and throughput
 -  Results must be comparable: same spatial access method throughout the experiment
 -  Elucidate query qualifications for which JSONB is more performant
+
+Note:
+The benchmark essentially involved a performace test where predefined bounding box search queries were run on the SIOSE relational model and compared with their counterpart on a document-oriented model using Postgre Sequel binary Jayson data type. Grids with varying spatial resolution were generated and used as iterative scenarios. Twin Postgres Sequel instances were launched, one for each model. By constraining ourselves to a common database system we pursued fully comparable response time and throughput values, since the same query processor and spatial access method will be used throughout the experiment. Finally, we expected to check out those query qualification categories for which a document store should be considered with regard to performance.
