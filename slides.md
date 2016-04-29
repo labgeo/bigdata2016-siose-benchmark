@@ -56,6 +56,7 @@ Note:
 SIOSE is downloadable as a set of relational database files, namely GIS shapefiles for polygons and Microsoft JET MDB files for cover values. As to year 2005 inventory, which is our target database, roughly two and a half million polygons and more than 10 million cover values were recorded. Thus, GIS users are provided with suitable data for their desktops out-of-the-box. However, usability is affected by the need to join polygon geometries with the values table, which, in turn, implements composite covers by means of adjacency lists. Although an extensive guide on how to solve common use cases is provided, non-expert database users may encounter this physical model unsuitable to fulfill their research goals by leveraging their skills.
 
 
+
 ### Research goals
 -  Run two equivalent sets of massive bounding box queries on twin Postgre Sequel instances
   -  Reference instance: SIOSE relational model
