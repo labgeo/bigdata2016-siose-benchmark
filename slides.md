@@ -80,7 +80,8 @@ In order for this experiment to be replicated, we adopted a development operatio
 ### Reproducibility
   
 ```
-docker run -d -e POSTGRES_PASSWORD=postgres labgeo/pg_siose_bench
+$ docker run -d -e POSTGRES_PASSWORD=postgres labgeo/pg_siose_bench
 ```  
   
-A single image in Docker Hub to get **PostgreSQL server** + **SIOSE 2005 database** + **full benchmark sources** packaged in one **PostgreSQL extension**
+A single image in Docker Hub to get:  
+**PostgreSQL server** + **SIOSE 2005 database** + **benchmark sources packaged in one PostgreSQL extension**
