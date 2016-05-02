@@ -91,6 +91,7 @@ Note:
 As of today, we went one step further to make the computational experiment easily reproducible to any researcher. There is a publicly available image in Docker Hub which gets built automatically and allows users to launch Postgre Sequel containers that already provide the SIOSE 2005 geographical database and all benchmark sources packaged as a Postgre Sequel extension. This means the whole benchmark environment may be reproduced by simply executing the docker run command.
 
 
+
 ### Test suite
 <small>LU/LC Condition</small> | <small>Query ID</small> | <small>Description</small>
 ------------------------------ | ----------------------- | --------------------------
