@@ -57,6 +57,14 @@ SIOSE is downloadable as a set of relational database files, namely GIS shapefil
 
 
 
+### Transform into document store
+![siose-docstore](http://labgeo.github.io/bigdata2016-siose-benchmark/img/siose-docstore.png)
+
+Note:
+Transforming the former SIOSE physical model into a Postgre Sequel document store which supports spatial search basically meant keeping the vector polygons table plus an additional binary JSON field where land-cover values were stored as documents. With regard to composite covers, the JSON document translates the original adjacency list as nested elements in the document tree.
+
+
+
 ### Research goals
 -  Run two equivalent sets of massive bounding box queries on twin PostgreSQL instances
   -  Reference instance: SIOSE relational model
