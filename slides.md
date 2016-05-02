@@ -92,13 +92,13 @@ As of today, we went one step further to make the computational experiment easil
 
 
 ### Test suite
-LU/LC Condition | Query ID | Description
-----------------|----------|------------
+<small>LU/LC Condition                        | Query ID         | Description
+----------------------------------------------|------------------|------------
 cover equals                                  | coniferous       | Select polygons with coniferous cover.
 cover equals AND area greater than            | large_coniferous | Select polygons with coniferous coverage greater than 10,000 m².
 attribute equals OR attribute equals          | reforested       | Select polygons with forest coverage originating from plantation or agricultural abandonment.
 cover equals AND parent(cover) equals         | scattered_urb    | Select polygons with scattered urbanisation coverage.
 IF cover equals THEN sum(area)                | area_coniferous  | Sum all areas of coniferous plantations.
-IF cover equals THEN reclass(area_percentage) | reclass          | Reclassify all polygons into 4 density class categories based on conifer percentage (0-25%, 25-50%, 50-75% and 75-100%). Discard polygons with no coniferous cover.  
+IF cover equals THEN reclass(area_percentage) | reclass          | Reclassify all polygons into 4 density class categories based on conifer percentage (0-25%, 25-50%, 50-75% and 75-100%). Discard polygons with no coniferous cover.</small>  
   
 56,557 grid cells * 4 iterations = 226,228 iterations per query
