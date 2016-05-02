@@ -101,6 +101,7 @@ As of today, we went one step further to make the computational experiment easil
 <small>IF cover equals THEN sum(area)</small>                | <small>area_coniferous</small>  | <small>Sum all areas of coniferous plantations.</small>
 <small>IF cover equals THEN reclass(area_percentage)</small> | <small>reclass</small>          | <small>Reclassify all polygons into 4 density class categories based on conifer percentage (0-25%, 25-50%, 50-75% and 75-100%). Discard polygons with no coniferous cover.</small>  
   
+**Bounding box search configuration**  
   
 <small>Grid levels of detail </small> | <small>Total grid cells</small> | <small>Iterations per cell</small>
 ------------------------------------- | ------------------------------- | ----------------------------------
