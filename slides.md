@@ -86,3 +86,6 @@ $ docker run -d -e POSTGRES_PASSWORD=postgres labgeo/pg_siose_bench
   
 A single image in Docker Hub to get:  
 **PostgreSQL server** + **SIOSE 2005 database** + **benchmark sources packaged in one PostgreSQL extension**
+
+Note:
+As of today, we went one step further to make the computational experiment easily reproducible to any researcher. There is a publicly available image in Docker Hub which gets built automatically and allows users to launch PostgreSQL containers that already provide the SIOSE 2005 geographical database and all benchmark sources packaged as a PostgreSQL extension. This means the whole benchmark environment may be reproduced by simply executing the docker run command.
