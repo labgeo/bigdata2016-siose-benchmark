@@ -93,7 +93,7 @@ As of today, we went one step further to make the computational experiment easil
 
 ### Test suite
 <small>LU/LC Condition</small> | <small>Query ID</small> | <small>Description</small>
-<small>------------ --</small> | <small>----------/small>| <small>-----------</small>
+<small>------------ --</small> | <small>--------</small> | <small>-----------</small>
 <small>cover equals</small>                                  | <small>coniferous</small>       | <small>Select polygons with coniferous cover.</small>
 <small>cover equals AND area greater than</small>            | <small>large_coniferous</small> | <small>Select polygons with coniferous coverage greater than 10,000 m².</small>
 <small>attribute equals OR attribute equals</small>          | <small>reforested</small>       | <small>Select polygons with forest coverage originating from plantation or agricultural abandonment.</small>
