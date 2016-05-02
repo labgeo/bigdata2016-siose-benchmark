@@ -101,4 +101,6 @@ As of today, we went one step further to make the computational experiment easil
 <small>IF cover equals THEN sum(area)</small>                | <small>area_coniferous</small>  | <small>Sum all areas of coniferous plantations.</small>
 <small>IF cover equals THEN reclass(area_percentage)</small> | <small>reclass</small>          | <small>Reclassify all polygons into 4 density class categories based on conifer percentage (0-25%, 25-50%, 50-75% and 75-100%). Discard polygons with no coniferous cover.</small>  
   
-<small>56,557 grid cells * 4 iterations = 226,228 iterations per query</small>
+<small>Grid cells</small> | <small>Iterations</small>
+------------------------- | -------------------------
+<small>56,557</small>     | <small>4</small>
