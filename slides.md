@@ -118,3 +118,8 @@ As of today, we went one step further to make the computational experiment easil
 
 Note:
 As to the test suite, a set of six bounding box search queries were prepared. The featured qualifiers were polygon selection by cover or attribute, area aggregation by cover and, finally, polygon reclassification by cover area percentage. The focus was set on forest covers since we were after common queries in environmental and risk management studies. With regard to the predefined grids, the tessellation function provides graticule scenarios overlapping Spain's mainland and islands at seven resolutions, ranging from 5 to 500 kilometres wide on a standard sixteen nineth desktop screen.
+
+
+
+### Benchmark results: response times
+![response](http://labgeo.github.io/bigdata2016-siose-benchmark/img/response.png)
