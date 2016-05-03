@@ -129,3 +129,14 @@ As to the test suite, a set of six bounding box search queries were prepared. Th
 Note:
 Let's have a look at benchmark results. Comparative line charts plot average response times by query and grid, while throughput boxplots show average polygons per millisecond grouped by query. The simple query by cover, which, in our case, selects polygons where coniferous forests exist, rendered better response times on the document-oriented model. So did the scattered urbanisation query, which is slightly more complex since it runs a cover in cover qualifier, that is to say, evaluates a parent and child relationship. These queries achieved best average throughput and biggest gains with regard to their counterparts in the relational model, as seen on the corresponding boxplots. The reclassification query also performs better on the binary Jayson store, although execution time gains tend to decrease at lower levels of detail. As to land-use attribute and area aggregation queries, differences are less significant. In contrast, the query by cover and attribute, which selects polygons where coniferous forests greater than 10,000 square metres exist, runs progressively slower at smaller scales on the document store, thus rendering better overall performance on the relational model.
 
+
+
+### Conclusion
+-  Candidate use cases for LU/LC document stores:
+  -  Massive polygon retrieval based on cover presence/absence
+  -  Reclassification
+-  JSONB limitations:
+  -  Inequality expressions on numeric attributes cannot make use of General Inverted Index
+  -  Convoluted query syntax, no DOM traversal operators yet
+-  What if JSON schema is flattened?
+
