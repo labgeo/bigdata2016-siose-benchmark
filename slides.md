@@ -123,3 +123,8 @@ As to the test suite, a set of six bounding box search queries were prepared. Th
 
 ### Benchmark results: response times
 ![response](http://labgeo.github.io/bigdata2016-siose-benchmark/img/response.png)
+
+
+
+### Benchmark results: throughput
+![throughput](http://labgeo.github.io/bigdata2016-siose-benchmark/img/throughput.png)
