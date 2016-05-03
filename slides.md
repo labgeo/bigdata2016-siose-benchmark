@@ -138,5 +138,13 @@ Let's have a look at benchmark results. Comparative line charts plot average res
 -  JSONB limitations:
   -  Inequality expressions on numeric attributes cannot make use of Generalized Inverted Index
   -  Convoluted query syntax, no DOM traversal operators yet
--  What if JSON schema is flattened?
 
+Note:
+In summary, there are common workflows for which document land use document stores should be taken into considerations. Massive polygon retrievals based on nesting cover conditions are a good use case. Reclassification operations may also benefit from binary Jayson implementations, although real applications such as bottom-up classifications proposed by the EAGLE group must be tested. As for Postgre Sequel binary Jayson, this benchmark helped in determining that, since inequality expressions on numeric attributes cannot leverage the Generalized Inverted Index on the Jayson field, simple queries such as "select polygons where  covers greater than a particular area exist" will have poor performance. A current limitation is also the somewhat convoluted syntax of Jayson queries, which stems from the lack of operators for navigating the document tree. A schema flattening strategy could have a positive impact, so this is a matter which deserves further research.
+
+
+
+# Questions?
+
+Note: 
+That's all to it. May I thank you for your attention and try to answer your questions the best I can.
