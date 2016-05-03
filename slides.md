@@ -123,10 +123,9 @@ As to the test suite, a set of six bounding box search queries were prepared. Th
 
 
 
-### Benchmark results: response times
-![response](http://labgeo.github.io/bigdata2016-siose-benchmark/img/response.png)
+### Benchmark results
+![charts](http://labgeo.github.io/bigdata2016-siose-benchmark/img/charts.png)
 
+Note:
+Let's have a look at benchmark results. Comparative line charts plot average response times by query and grid, while throughput boxplots show average polygons per millisecond grouped by query.
 
-
-### Benchmark results: throughput
-![throughput](http://labgeo.github.io/bigdata2016-siose-benchmark/img/throughput.png)
