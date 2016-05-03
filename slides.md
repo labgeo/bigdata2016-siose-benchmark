@@ -90,6 +90,7 @@ In order for this experiment to be replicated, we adopted a development operatio
   
 ```
 $ docker run -d -e POSTGRES_PASSWORD=postgres labgeo/pg_siose_bench
+$ PGPASSWORD=postgres psql -h localhost -p 5432 -d siose2005 -U postgres -c "CREATE EXTENSION pg_siose_bench"
 ```  
   
 A single image in Docker Hub to get:  
