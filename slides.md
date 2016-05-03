@@ -136,7 +136,7 @@ Let's have a look at benchmark results. Comparative line charts plot average res
   -  Massive polygon retrieval based on cover presence/absence
   -  Reclassification
 -  JSONB limitations:
-  -  Inequality expressions on numeric attributes cannot make use of General Inverted Index
+  -  Inequality expressions on numeric attributes cannot make use of Generalized Inverted Index
   -  Convoluted query syntax, no DOM traversal operators yet
 -  What if JSON schema is flattened?
 
