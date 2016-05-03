@@ -86,7 +86,7 @@ In order for this experiment to be replicated, we adopted a development operatio
 
 
 
-### Affordable reproducibility
+### Neat reproducibility
   
 ```
 $ docker run -d -e POSTGRES_PASSWORD=postgres labgeo/pg_siose_bench
